@@ -1,0 +1,35 @@
+[
+    {
+      "ParameterKey": "InfrastructureName", 
+      "ParameterValue": "VAR_INFRA_NAME" 
+    },
+    {
+      "ParameterKey": "RhcosAmi", 
+      "ParameterValue": "VAR_RHCOS_AMI" 
+    },
+    {
+      "ParameterKey": "Subnet", 
+      "ParameterValue": "VAR_PRIVATE_SUBNET_ID" 
+    },
+    {
+      "ParameterKey": "WorkerSecurityGroupId", 
+      "ParameterValue": "VAR_MASTER_SG_ID" 
+    },
+    {
+      "ParameterKey": "IgnitionLocation", 
+      "ParameterValue": "https://api-int.VAR_CLUSTER_NAME.VAR_DOMAIN:22623/config/worker" 
+    },
+    {
+      "ParameterKey": "CertificateAuthorities", 
+      "ParameterValue": "VAR_CA"
+    },
+    {
+      "ParameterKey": "WorkerInstanceProfileName", 
+      "ParameterValue": "<roles_stack>-WorkerInstanceProfile-<random_string>" 
+    },
+    {
+      "ParameterKey": "WorkerInstanceType", 
+      "ParameterValue": "VAR_WORKER_INSTANCE_TYPE" 
+    }
+]
+  

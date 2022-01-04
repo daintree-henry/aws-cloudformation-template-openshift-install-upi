@@ -1,0 +1,19 @@
+[
+    {
+      "ParameterKey": "InfrastructureName", 
+      "ParameterValue": "VAR_INFRA_NAME" 
+    },
+    {
+      "ParameterKey": "VpcCidr", 
+      "ParameterValue": "10.0.0.0/16" 
+    },
+    {
+      "ParameterKey": "PrivateSubnets", 
+      "ParameterValue": "VAR_PRIVATE_SUBNET_ID" 
+    },
+    {
+      "ParameterKey": "VpcId", 
+      "ParameterValue": "VAR_VPC_ID" 
+    }
+  ]
+  

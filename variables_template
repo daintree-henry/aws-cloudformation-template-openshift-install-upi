@@ -1,0 +1,24 @@
+#Initial VAR
+VAR_CLUSTER_NAME=
+VAR_INFRA_NAME=
+VAR_DOMAIN=
+VAR_PRIVATE_SUBNET_ID=
+VAR_VPC_ID=
+VAR_VPC_CIDR=
+VAR_RHCOS_AMI=
+VAR_BOOTSTRAP_IGN_FILE='s3:\/\/<bucket_name>\/bootstrap.ign'
+VAR_MASTER_INSTANCE_TYPE=
+VAR_WORKER_INSTANCE_TYPE=
+VAR_CA='data:text\/plain;charset=utf-8;base64,ABC...xYz=='
+
+#AFTER 02_network
+VAR_NLB_LAMBDA_ARN='arn:aws:lambda:<region>:<account_number>:function:<dns_stack_name>-RegisterNlbIpTargets-<random_string>'
+VAR_APITARGET_ARN='arn:aws:elasticloadbalancing:<region>:<account_number>:targetgroup\/<dns_stack_name>-Inter-<random_string>'
+VAR_SERVICETARGET_ARN='arn:aws:elasticloadbalancing:<region>:<account_number>:targetgroup\/<dns_stack_name>-Inter-<random_string>'
+VAR_HOSTED_ZONE_ID=
+
+#AFTER 03_security
+VAR_MASTER_SG_ID=
+VAR_MASTER_SG_ID=
+
+

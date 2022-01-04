@@ -1,0 +1,71 @@
+[
+  {
+    "ParameterKey": "InfrastructureName", 
+    "ParameterValue": "VAR_INFRA_NAME" 
+  },
+  {
+    "ParameterKey": "RhcosAmi", 
+    "ParameterValue": "VAR_RHCOS_AMI" 
+  },
+  {
+    "ParameterKey": "AutoRegisterDNS", 
+    "ParameterValue": "yes" 
+  },
+  {
+    "ParameterKey": "PrivateHostedZoneId", 
+    "ParameterValue": "VAR_HOSTED_ZONE_ID" 
+  },
+  {
+    "ParameterKey": "PrivateHostedZoneName", 
+    "ParameterValue": "VAR_CLUSTER_NAME.VAR_DOMAIN" 
+  },
+  {
+    "ParameterKey": "Master0Subnet", 
+    "ParameterValue": "VAR_PRIVATE_SUBNET_ID" 
+  },
+  {
+    "ParameterKey": "Master1Subnet", 
+    "ParameterValue": "VAR_PRIVATE_SUBNET_ID" 
+  },
+  {
+    "ParameterKey": "Master2Subnet", 
+    "ParameterValue": "VAR_PRIVATE_SUBNET_ID" 
+  },
+  {
+    "ParameterKey": "MasterSecurityGroupId", 
+    "ParameterValue": "VAR_MASTER_SG_ID" 
+  },
+  {
+    "ParameterKey": "IgnitionLocation", 
+    "ParameterValue": "https://api-int.VAR_CLUSTER_NAME.VAR_DOMAIN:22623/config/master" 
+  },
+  {
+    "ParameterKey": "CertificateAuthorities", 
+    "ParameterValue": "VAR_CA" 
+  },
+  {
+    "ParameterKey": "MasterInstanceProfileName", 
+    "ParameterValue": "<roles_stack>-MasterInstanceProfile-<random_string>" 
+  },
+  {
+    "ParameterKey": "MasterInstanceType", 
+    "ParameterValue": "VAR_MASTER_INSTANCE_TYPE" 
+  },
+  {
+    "ParameterKey": "AutoRegisterELB", 
+    "ParameterValue": "yes" 
+  },
+  {
+    "ParameterKey": "RegisterNlbIpTargetsLambdaArn", 
+    "ParameterValue": "VAR_NLB_LAMBDA_ARN"
+  },
+  {
+    "ParameterKey": "InternalApiTargetGroupArn", 
+    "ParameterValue": "VAR_APITARGET_ARN"
+  },
+  {
+    "ParameterKey": "InternalServiceTargetGroupArn", 
+    "ParameterValue": "VAR_SERVICETARGET_ARN"
+  }
+]
+    
