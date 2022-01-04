@@ -13,7 +13,7 @@
     },
     {
       "ParameterKey": "WorkerSecurityGroupId", 
-      "ParameterValue": "VAR_MASTER_SG_ID" 
+      "ParameterValue": "VAR_WORKER_SG_ID" 
     },
     {
       "ParameterKey": "IgnitionLocation", 
@@ -25,11 +25,12 @@
     },
     {
       "ParameterKey": "WorkerInstanceProfileName", 
-      "ParameterValue": "<roles_stack>-WorkerInstanceProfile-<random_string>" 
+      "ParameterValue": "VAR_WORKER_PROFILE_ID" 
     },
     {
       "ParameterKey": "WorkerInstanceType", 
       "ParameterValue": "VAR_WORKER_INSTANCE_TYPE" 
     }
 ]
+
   

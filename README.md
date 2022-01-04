@@ -47,7 +47,7 @@ aws cloudformation create-stack --stack-name cp4dsg --template-body file:///root
 
 aws cloudformation describe-stacks --stack-name cp4dsg
 
-#SG값 입력
+#SG값,InstanceProfileName 입력
 vi variables
 
 ./variable-apply.sh 04_bootstrap_params.json

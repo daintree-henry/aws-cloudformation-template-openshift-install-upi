@@ -45,7 +45,7 @@
   },
   {
     "ParameterKey": "MasterInstanceProfileName", 
-    "ParameterValue": "<roles_stack>-MasterInstanceProfile-<random_string>" 
+    "ParameterValue": "VAR_MASTER_PROFILE_ID" 
   },
   {
     "ParameterKey": "MasterInstanceType", 
