@@ -8,10 +8,6 @@
     "ParameterValue": "VAR_INFRA_NAME" 
   },
   {
-    "ParameterKey": "HostedZoneId", 
-    "ParameterValue": "none" 
-  },
-  {
     "ParameterKey": "HostedZoneName", 
     "ParameterValue": "VAR_DOMAIN" 
   },

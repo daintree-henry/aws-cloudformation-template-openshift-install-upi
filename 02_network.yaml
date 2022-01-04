@@ -16,9 +16,6 @@ Parameters:
     ConstraintDescription: Infrastructure name must be alphanumeric, start with a letter, and have a maximum of 27 characters.
     Description: A short, unique cluster ID used to tag cloud resources and identify items owned or used by the cluster.
     Type: String
-  HostedZoneId:
-    Description: The Route53 public zone ID to register the targets with, such as Z21IXYZABCZ2A4.
-    Type: String
   HostedZoneName:
     Description: The Route53 zone to register the targets with, such as example.com. Omit the trailing period.
     Type: String
@@ -47,7 +44,6 @@ Metadata:
         default: "DNS"
       Parameters:
       - HostedZoneName
-      - HostedZoneId
     ParameterLabels:
       ClusterName:
         default: "Cluster Name"
